@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+button {
+    all: unset;
+    
+}
+body {
+    background-color: bisque;
+}
+nav { 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px ;
+}
+nav a {
+    color: black;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.get_started_button {
+    background-color: purple;
+    color: white;
+    padding: 7px 16px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.nav_button button {
+font-weight: bold;
+}
