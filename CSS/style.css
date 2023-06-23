@@ -45,3 +45,74 @@ ul {
 .nav_button button {
 font-weight: bold;
 }
+main {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+}
+.all_text {
+    width: 45%;
+    
+}
+
+main img {
+    width: 45%;
+}
+main h1 {
+    font-size: 60px;
+}
+main p {
+    font-size: 22px;
+    margin: 30px 0px;
+}
+.button1 {
+    background-color: purple;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+.button2 {
+    background-color: aliceblue;
+    padding:15px 20px ;
+    border: 1px solid purple;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:992px) {
+    .nav_button {
+        display: none;
+    }
+    main h1 {
+        font-size: 40px;
+    }
+    main p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:768px){
+nav {
+    padding: 10px 35px;
+}
+ul {
+    gap: 25px;
+}
+main h1 {
+    font-size: 30px;
+}
+main {
+    padding: 50px 30px;
+}
+main p {
+    text-align: justify;
+}
+.main_button {
+    display: flex;
+}
+.button1, .button2 {
+    font-size: 14px;
+    padding: 10px;
+}
+}
