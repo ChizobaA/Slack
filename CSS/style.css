@@ -127,6 +127,8 @@ main p {
     }
     nav i{
         display: block;
+        font-size: 30px;
+        
     }
     .all_text {
         width: 80% ;
@@ -149,7 +151,7 @@ main p {
         top: 0;
         right: -50%;
         height: 100vh;
-        width: 30%;
+        width: 50%;
         text-align: center;
         padding-top: 2rem;
         transition: .5s;
