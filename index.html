@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/CSS/style.css"> <!--code links this css to the html -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="/CSS/style.css"> <!--code links this css to the html -->
 </head>
 <body>
     <nav>
@@ -15,8 +16,9 @@
         <img src="/images/Slack_icon_2019.svg.png" width="30px" alt="">
         <h3>Slack</h3>
        </a>
-       
-       <ul>
+       <i class="ri-menu-add-line"></i>
+       <ul> 
+        <i class="ri-close-circle-fill"></i>
         <li>
             <a href="#">Why Slack?</a>
         </li>
@@ -52,5 +54,14 @@
         <img src="/images/Slack_icon_2019.svg.png" alt="">
         
     </main>
+    <script>
+        document.querySelector(".ri-menu-add-line").addEventListener("click", function(){
+            document.querySelector("nav ul").style.right=0
+        })
+
+        document.querySelector(".ri-close-circle-fill").addEventListener("click", function(){
+            document.querySelector("nav ul").style.right="-50%"
+        })
+    </script>
 </body>
 </html>
